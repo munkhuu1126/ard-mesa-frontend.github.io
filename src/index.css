@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 
 body{
   background-image: url('./img/ABckground.png');
   background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.custom-font{
+  font-family:'Allerta Stencil' , sans-serif;
 }
