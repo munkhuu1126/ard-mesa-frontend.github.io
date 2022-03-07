@@ -47,11 +47,10 @@ export default function Players() {
 
 
   useEffect(() => {
-    console.log(selectedPlayer)
     if (selectedPlayer !== null) {
       setPlayers(prevPlayers => prevPlayers.map(player => {
         if (player.id === selectedPlayer.id) {
-    
+          console.log(prevPlayers)
           return {
             ...selectedPlayer,
             score: selectedPlayer.score,
